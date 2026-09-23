@@ -1,8 +1,17 @@
-/build/
-/out/
+# Build outputs
+[Bb]in/
+[Oo]bj/
+build/
+out/
 *.o
 *.obj
 *.exe
 *.pdb
+*.dll
+*.ilk
+
+# Local IDE files
 .vs/
+.idea/
 *.user
+*.suo
